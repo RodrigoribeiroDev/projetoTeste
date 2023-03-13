@@ -1,0 +1,84 @@
+#container{
+    background-color: rgb(77, 65, 65);
+    width: 20%;
+    height: 98%;
+    position: absolute;
+    
+}
+li{
+    flex-direction: column;
+    color: aliceblue;
+    padding: 15%;
+    cursor:pointer;
+}
+#container{
+    background-color: rgb(121, 36, 36);
+}
+
+#ipt-in{
+    position: absolute;
+    left: 75%;
+    top: 10%;
+    display: none;
+}
+
+
+#imgPhoto{
+    width: 50%;
+    height: 52%;
+    position: absolute;
+    cursor: pointer;
+    padding: 23px;
+   
+}
+.pai-img{
+   max-width: 500px;
+   width: 100%;
+ 
+}
+
+
+.img-container{
+    margin-top: 10%;
+    background-color: rgb(221, 226, 231);
+    border: 2px solid rgb(159, 156, 156);
+    border-radius: 50%;
+    width: 7%;
+    height: 14%;
+    left: 91%;
+    top: -14%;
+    position: absolute;
+    transition: background .3s;
+    
+}
+.img-container:hover{
+    background-color: floralwhite;
+}
+
+
+body{
+    background-color: rgba(46, 34, 123, 0.664);
+}
+.centro{
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top:50%;
+    left: 40%;
+}
+.ptc-ico{
+width: 5%;
+height: 10%;
+position: absolute;
+top: 85%;
+left: 93%;
+}
+p{
+    position: absolute;
+    top: 90%;
+    left: 91%;
+    
+}
+h1{
+    color: aliceblue;
+}
