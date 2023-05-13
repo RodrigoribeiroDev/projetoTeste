@@ -5,14 +5,17 @@
     position: absolute;
     
 }
+ul{
+    padding: 25%;
+}
 li{
     flex-direction: column;
     color: aliceblue;
-    padding: 15%;
     cursor:pointer;
 }
 #container{
     background-color: rgb(121, 36, 36);
+    
 }
 
 #ipt-in{
